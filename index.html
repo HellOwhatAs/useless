@@ -3,7 +3,15 @@
     <head>
         <meta charset="utf-8" />
         <title>2021年“一二·九”师生歌会统分</title>
+        <link rel="shortcut icon" href="favicon.ico">
         <script>
+            window.onbeforeunload = function (e) {
+            e = e || window.event;
+            if (e) {
+                e.returnValue = '关闭提示';
+            }
+            return '关闭提示';
+            };
             function addRow(x){
                 var oTable = document.getElementById(x);
                 var tBodies = oTable.tBodies;
@@ -28,6 +36,8 @@
                 var oTable=document.getElementById(x).tBodies[0];
                 var sc=document.getElementById(x+"_");
                 var theli=[[],[],[],[],[],[],[],[],[],[],[],[]];
+                var _tmp_;
+                var _;
                 for(i=0;i<oTable.rows.length;i++){
                     for(j=0;j<oTable.rows[i].cells.length;j++){
                         _tmp_=eval(oTable.rows[i].cells[j].innerText);
@@ -62,13 +72,12 @@
                 for(var i=0; i<inputs.length; i++) 
                 { 
                     if(inputs[i]===focus) break; 
-                } 
-                console.log(key);
+                }
                 switch(key) 
                 { 
-                    // case 37:
-                    //     if(i>0) inputs[i-1].focus();
-                    //     break; 
+                    case 37:
+                        if(i>0) inputs[i-1].focus();
+                        break; 
                     case 13:
                         if(i+12 <inputs.length) inputs[i+12].focus();
                         else inputs[(i+1)%12].focus();
@@ -79,9 +88,9 @@
                         if(i-12>=0) inputs[i-12].focus();
                         else if(inputs.length-(Math.ceil(i/12)*12-i+1)>0)inputs[inputs.length-(Math.ceil(i/12)*12-i+1)].focus();
                         break; 
-                    // case 39: 
-                    //     if(i<inputs.length-1) inputs[i+1].focus(); 
-                    //     break; 
+                    case 39: 
+                        if(i<inputs.length-1) inputs[i+1].focus(); 
+                        break; 
                     case 40: 
                         if(i+12 <inputs.length) inputs[i+12].focus();
                         else inputs[(i+1)%12].focus();
