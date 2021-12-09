@@ -75,9 +75,9 @@
                 }
                 switch(key) 
                 { 
-                    case 37:
-                        if(i>0) inputs[i-1].focus();
-                        break; 
+                    // case 37:
+                    //     if(i>0) inputs[i-1].focus();
+                    //     break; 
                     case 13:
                         if(i+12 <inputs.length) inputs[i+12].focus();
                         else inputs[(i+1)%12].focus();
@@ -88,9 +88,9 @@
                         if(i-12>=0) inputs[i-12].focus();
                         else if(inputs.length-(Math.ceil(i/12)*12-i+1)>0)inputs[inputs.length-(Math.ceil(i/12)*12-i+1)].focus();
                         break; 
-                    case 39: 
-                        if(i<inputs.length-1) inputs[i+1].focus(); 
-                        break; 
+                    // case 39: 
+                    //     if(i<inputs.length-1) inputs[i+1].focus(); 
+                    //     break; 
                     case 40: 
                         if(i+12 <inputs.length) inputs[i+12].focus();
                         else inputs[(i+1)%12].focus();
