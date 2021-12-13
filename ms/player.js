@@ -222,20 +222,8 @@ var player = new Player([{
     file: '19.mp3',
     howl: null
 },{
-    title: 'なんでもないや-[没什么大不了](Movie_Ver_)-(动画电影《你的名字。》片尾曲)-RADWIMPS-9327383',
-    file: '21.mp3',
-    howl: null
-},{
-    title: 'スパークル-[火花](Movie_Ver_)-(动画电影《你的名字。》插曲)-RADWIMPS-9327380',
+    title: 'スパークル-[火花](Movie_Ver_)-(动画电影《你的名字。》插曲)-RADWIMPS',
     file: '22.mp3',
-    howl: null
-},{
-    title: '他不懂-张杰-3693485',
-    file: '23.mp3',
-    howl: null
-},{
-    title: '你的笑颜-Bandari-234840',
-    file: '24.mp3',
     howl: null
 },{
     title: '冯文甜 - 会孤单',
@@ -246,27 +234,15 @@ var player = new Player([{
     file: '26.mp3',
     howl: null
 },{
-    title: '刚好遇见你-李玉刚-9950164',
-    file: '27.aac',
-    howl: null
-},{
-    title: '前前前世(Movie_Ver_)-(动画电影《你的名字。》主题曲)-RADWIMPS-9327390',
-    file: '28.mp3',
-    howl: null
-},{
     title: '司夏 - 与你最后的夏天',
     file: '29.mp3',
     howl: null
 },{
-    title: '夜空中最亮的星-逃跑计划-1217815',
-    file: '30.mp3',
-    howl: null
-},{
-    title: '夢灯籠-(动画电影《你的名字。》片头曲)-RADWIMPS-9327375',
+    title: '夢灯籠-(动画电影《你的名字。》片头曲)-RADWIMPS',
     file: '31.mp3',
     howl: null
 },{
-    title: '天上人间-Bandari-236169',
+    title: '天上人间-Bandari',
     file: '32.mp3',
     howl: null
 },{
@@ -278,16 +254,8 @@ var player = new Player([{
     file: '34.mp3',
     howl: null
 },{
-    title: '小小的太阳-孙露-4193509',
-    file: '35.aac',
-    howl: null
-},{
     title: '山海入梦来',
     file: '36.mp3',
-    howl: null
-},{
-    title: '崛起(live)-群星-1022070',
-    file: '37.mp3',
     howl: null
 },{
     title: '张宇 - 月亮惹的祸',
@@ -358,7 +326,7 @@ var player = new Player([{
     file: '55.mp3',
     howl: null
 },{
-    title: '灯火-(电影《毛驴县令》主题歌)-潘长江-8357230',
+    title: '灯火-(电影《毛驴县令》主题歌)-潘长江',
     file: '56.mp3',
     howl: null
 },{
@@ -366,7 +334,7 @@ var player = new Player([{
     file: '57.mp3',
     howl: null
 },{
-    title: '红尘客栈-周杰伦-3195905',
+    title: '红尘客栈-周杰伦',
     file: '58.mp3',
     howl: null
 },{
@@ -440,10 +408,6 @@ var player = new Player([{
 },{
     title: '谢娜,张杰 - 天下',
     file: '76.mp3',
-    howl: null
-},{
-    title: '追梦人-Bandari-6246774',
-    file: '77.mp3',
     howl: null
 },{
     title: '逃跑计划 - 夜空中最亮的星',
