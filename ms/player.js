@@ -413,6 +413,10 @@ var player = new Player([{
     title: '逃跑计划 - 夜空中最亮的星',
     file: '78.mp3',
     howl: null
+},{
+    title: '背起了行囊',
+    file: '79.mp3',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
