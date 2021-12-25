@@ -414,7 +414,7 @@ var player = new Player([{
     file: '78.mp3',
     howl: null
 },{
-    title: '背起了行囊',
+    title: '潮汐',
     file: '79.mp3',
     howl: null
 },]);
