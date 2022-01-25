@@ -421,6 +421,63 @@ var player = new Player([{
     title: 'GRANRODEO - セツナの愛',
     file: '80.mp3',
     howl: null
+},{
+    title: 'DAISHI DANCE Cecile Corbel - Take me hand',
+    file: '81.mp3',
+    howl: null
+},{
+    title: '澤野弘之 - VOiD',
+    file: '82.mp3',
+    howl: null
+},
+{
+    title: 'Cyua - Grenzlinie〈MODv〉',
+    file: '83.mp3',
+    howl: null
+},{
+    title: 'Cyua - Rё∀L',
+    file: '84.mp3',
+    howl: null
+},{
+    title: 'Cyua - Blume im Meer',
+    file: '85.mp3',
+    howl: null
+},{
+    title: 'Aimee Blackschleger - Release My Soul',
+    file: '86.mp3',
+    howl: null
+},{
+    title: '小林未郁 - βios',
+    file: '87.mp3',
+    howl: null
+},{
+    title: '河图 - 海棠酒满',
+    file: '88.mp3',
+    howl: null
+},{
+    title: 'mpi - Hill Of Sorrow',
+    file: '89.mp3',
+    howl: null
+},{
+    title: 'かたわれ時',
+    file: '90.mp3',
+    howl: null
+},{
+    title: '【泠鸢】翻唱《勾指起誓》',
+    file: '91.mp3',
+    howl: null
+},{
+    title: '故城 - 银临',
+    file: '92.mp3',
+    howl: null
+},{
+    title: '澤野弘之 Cyua - scars of love',
+    file: '93.mp3',
+    howl: null
+},{
+    title: 'close your eyes',
+    file: '94.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
