@@ -417,6 +417,10 @@ var player = new Player([{
     title: '潮汐',
     file: '79.mp3',
     howl: null
+},{
+    title: 'GRANRODEO - セツナの愛',
+    file: '80.mp3',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
