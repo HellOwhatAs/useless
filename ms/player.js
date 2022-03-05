@@ -478,6 +478,10 @@ var player = new Player([{
     title: 'close your eyes',
     file: '94.m4a',
     howl: null
+},{
+    title: '你看到的我',
+    file: '95.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
