@@ -486,6 +486,10 @@ var player = new Player([{
     title: 'Time to pretend',
     file: '0208_0f5d_0652_5b89bf3bdb87cbca607b18082cb72ffb.m4a',
     howl: null
+},{
+    title: 'Normal No More',
+    file: 'normal no more.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
