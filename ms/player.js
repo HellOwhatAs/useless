@@ -490,6 +490,10 @@ var player = new Player([{
     title: 'Normal No More',
     file: 'normal no more.m4a',
     howl: null
+},{
+    title: 'Empty love',
+    file: 'Empty love.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
