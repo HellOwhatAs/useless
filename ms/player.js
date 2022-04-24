@@ -494,6 +494,10 @@ var player = new Player([{
     title: 'Empty love',
     file: 'Empty love.m4a',
     howl: null
+},{
+    title: '花火が瞬く夜に',
+    file: '花火が瞬く夜に.mp3',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
