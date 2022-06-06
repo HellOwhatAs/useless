@@ -498,6 +498,10 @@ var player = new Player([{
     title: '花火が瞬く夜に',
     file: '花火が瞬く夜に.mp3',
     howl: null
+},{
+    title: '夜に駆ける',
+    file: '夜に駆ける.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
