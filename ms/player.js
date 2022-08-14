@@ -506,6 +506,10 @@ var player = new Player([{
     title: '带我去找夜生活',
     file: '带我去找夜生活.m4a',
     howl: null
+},{
+    title: '画离弦',
+    file: '画离弦.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
