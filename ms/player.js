@@ -510,6 +510,10 @@ var player = new Player([{
     title: '画离弦',
     file: '画离弦.m4a',
     howl: null
+},{
+    title: '狂おしいほど僕には美しい',
+    file: '狂おしいほど僕には美しい.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
