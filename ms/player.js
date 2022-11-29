@@ -514,6 +514,10 @@ var player = new Player([{
     title: '狂おしいほど僕には美しい',
     file: '狂おしいほど僕には美しい.m4a',
     howl: null
+},{
+    title: '呓语 - 毛不易.m4a',
+    file: '呓语 - 毛不易.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
