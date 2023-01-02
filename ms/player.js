@@ -515,8 +515,12 @@ var player = new Player([{
     file: '狂おしいほど僕には美しい.m4a',
     howl: null
 },{
-    title: '呓语 - 毛不易.m4a',
+    title: '呓语 - 毛不易',
     file: '呓语 - 毛不易.m4a',
+    howl: null
+},{
+    title: 'IVORY TOWER (feat. SennaRin)',
+    file: 'IVORY TOWER (feat. SennaRin).m4a',
     howl: null
 },]);
 playBtn.addEventListener('click', function() {
