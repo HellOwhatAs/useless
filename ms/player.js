@@ -522,6 +522,14 @@ var player = new Player([{
     title: 'IVORY TOWER (feat. SennaRin)',
     file: 'IVORY TOWER (feat. SennaRin).m4a',
     howl: null
+},{
+    title: 'ninelie - Aimer (エメ) chelly',
+    file: 'ninelie - Aimer (エメ) chelly.m4a',
+    howl: null
+},{
+    title: 'Blume im Meer - Cyua (キュア)',
+    file: 'Blume im Meer - Cyua (キュア).m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
