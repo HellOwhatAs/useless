@@ -530,6 +530,10 @@ var player = new Player([{
     title: 'Blume im Meer - Cyua (キュア)',
     file: 'Blume im Meer - Cyua (キュア).m4a',
     howl: null
+},{
+    title: 'cocoon - 林ゆうき',
+    file: 'cocoon - 林ゆうき.mp3',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
