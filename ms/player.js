@@ -534,6 +534,10 @@ var player = new Player([{
     title: 'cocoon - 林ゆうき',
     file: 'cocoon - 林ゆうき.mp3',
     howl: null
+},{
+    title: 'Night Crusing - Kensuke Ushio',
+    file: 'Night Crusing - Kensuke Ushio.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
