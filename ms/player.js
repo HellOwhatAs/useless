@@ -538,6 +538,10 @@ var player = new Player([{
     title: 'Night Crusing - Kensuke Ushio',
     file: 'Night Crusing - Kensuke Ushio.m4a',
     howl: null
+},{
+    title: '如果声音不记得 - 吴青峰',
+    file: 'videoplayback.weba',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
