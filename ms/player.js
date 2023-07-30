@@ -542,6 +542,18 @@ var player = new Player([{
     title: '如果声音不记得 - 吴青峰',
     file: 'videoplayback.weba',
     howl: null
+},{
+    title: '下潜 - 川青',
+    file: '下潜.mp3',
+    howl: null
+},{
+    title: '伯虎说 - 张晓涵',
+    file: '伯虎说.m4a',
+    howl: null
+},{
+    title: 'Feel Invincible - Skillet',
+    file: 'Skillet_-_Feel_Invincible.mp3',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
