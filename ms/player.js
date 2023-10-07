@@ -554,6 +554,10 @@ var player = new Player([{
     title: 'Feel Invincible - Skillet',
     file: 'Skillet_-_Feel_Invincible.mp3',
     howl: null
+},{
+    title: 'Geisha - Dino Sor',
+    file: 'Geisha.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
