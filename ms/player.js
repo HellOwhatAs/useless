@@ -558,6 +558,10 @@ var player = new Player([{
     title: 'Geisha - Dino Sor',
     file: 'Geisha.m4a',
     howl: null
+},{
+    title: 'Ryukyuvania - Dr稳',
+    file: 'Ryukyuvania - Dr稳.mp3',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
