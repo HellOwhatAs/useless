@@ -562,6 +562,10 @@ var player = new Player([{
     title: 'Ryukyuvania - Dr稳',
     file: 'Ryukyuvania - Dr稳.mp3',
     howl: null
+},{
+    title: 'メフィスト（梅菲斯特） - 女王蜂',
+    file: 'メフィスト（梅菲斯特） - 女王蜂.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
