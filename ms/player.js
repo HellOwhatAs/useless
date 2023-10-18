@@ -11,6 +11,17 @@ var elms = ['track', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nex
 elms.forEach(function(elm) {
     window[elm] = document.getElementById(elm);
 });
+var url_params = new URLSearchParams(window.location.search);
+function randomNum(minNum,maxNum){ 
+    switch(arguments.length){ 
+        case 1: 
+            return parseInt(Math.random()*minNum+1,10);
+        case 2: 
+            return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+            default: 
+                return 0; 
+    } 
+} 
 var Player = function(playlist) {
     this.playlist = playlist;
     this.index = 0;
@@ -53,7 +64,20 @@ Player.prototype = {
                 onend: function() {
                     wave.container.style.display = 'none';
                     bar.style.display = 'block';
-                    self.skip('next');
+                    if (url_params.get("mode") === "loop") {
+                        self.skipTo(self.index);
+                        loading.style.display = 'none';
+                    }
+                    else if (url_params.get("mode") === "rand") {
+                        var tmp = randomNum(0, self.playlist.length);
+                        while (tmp == self.index) {
+                            tmp = randomNum(0, self.playlist.length);
+                        }
+                        self.skipTo(tmp);
+                    }
+                    else {
+                        self.skip('next');
+                    }
                 },
                 onpause: function() {
                     wave.container.style.display = 'none';
