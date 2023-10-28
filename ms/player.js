@@ -590,6 +590,10 @@ var player = new Player([{
     title: 'メフィスト（梅菲斯特） - 女王蜂',
     file: 'メフィスト（梅菲斯特） - 女王蜂.m4a',
     howl: null
+},{
+    title: 'THEMEX-Xenoblade - 泽野弘之',
+    file: 'THEMEX-Xenoblade - 泽野弘之.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
