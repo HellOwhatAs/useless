@@ -594,6 +594,10 @@ var player = new Player([{
     title: 'THEMEX-Xenoblade - 泽野弘之',
     file: 'THEMEX-Xenoblade - 泽野弘之.m4a',
     howl: null
+},{
+    title: '无人区玫瑰 - 一颗狼星',
+    file: '无人区玫瑰 - 一颗狼星.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
