@@ -598,6 +598,10 @@ var player = new Player([{
     title: '无人区玫瑰 - 一颗狼星',
     file: '无人区玫瑰 - 一颗狼星.m4a',
     howl: null
+},{
+    title: '月落的声音 - 一颗狼星',
+    file: '月落的声音 - 一颗狼星.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
