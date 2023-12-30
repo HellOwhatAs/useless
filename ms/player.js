@@ -602,6 +602,10 @@ var player = new Player([{
     title: '月落的声音 - 一颗狼星',
     file: '月落的声音 - 一颗狼星.m4a',
     howl: null
+},{
+    title: 'ロック風アレンジ - Angel Beats',
+    file: 'ロック風アレンジ - Angel Beats.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
