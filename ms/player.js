@@ -606,6 +606,10 @@ var player = new Player([{
     title: 'ロック風アレンジ - Angel Beats',
     file: 'ロック風アレンジ - Angel Beats.m4a',
     howl: null
+},{
+    title: 'Beautiful Lies - B-Complex',
+    file: 'Beautiful Lies - B-Complex.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
