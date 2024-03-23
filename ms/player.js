@@ -610,6 +610,10 @@ var player = new Player([{
     title: 'Beautiful Lies - B-Complex',
     file: 'Beautiful Lies - B-Complex.m4a',
     howl: null
+},{
+    title: 'Die For You - Grabbitz',
+    file: 'Die For You - Grabbitz.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
