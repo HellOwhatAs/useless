@@ -614,6 +614,10 @@ var player = new Player([{
     title: 'Die For You - Grabbitz',
     file: 'Die For You - Grabbitz.m4a',
     howl: null
+},{
+    title: 'ありがとう… - KOKIA',
+    file: 'ありがとう… - KOKIA.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
