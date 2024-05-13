@@ -618,6 +618,10 @@ var player = new Player([{
     title: 'ありがとう… - KOKIA',
     file: 'ありがとう… - KOKIA.m4a',
     howl: null
+},{
+    title: 'Vagrant - Feint / Veela',
+    file: 'Vagrant - Feint_Veela.m4a',
+    howl: null
 },]);
 playBtn.addEventListener('click', function() {
     player.play();
